@@ -1,0 +1,78 @@
+@font-face {
+    font-family: logo ;
+    src: url("every-dreams.regular.ttf");
+}
+
+
+
+/* body{
+    margin:0;
+    padding:0;
+} */
+
+.card{
+   margin-left:30%;
+   max-width:400px;
+   background-color:azure;
+   border:2px solid brown;
+   border-radius:20px;
+
+
+}
+.user-img{
+    margin-top:20px;
+    width:40px;
+    height:50px;
+    border-radius:50%;
+    border:1px solid red;
+    margin-right:10px;
+}
+header{
+    
+    font-family:logo;
+    display:flex;
+    justify-content:space-between;
+    
+    
+}
+h1{
+    margin-left:10px;
+}
+#main-page{
+    max-width:520px;
+
+}
+
+.user-profile{
+    display:flex;
+    margin-left:5px;
+    margin-bottom:5px;
+}
+.user-info{
+    margin-top:8px;
+    line-height:5px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:16px;
+}
+.post-img{
+    width:400px;
+    height:300px;
+}
+.likes{
+    color:orangered;
+    margin-top:5px;
+    margin-bottom:5px;
+    font-size:18px;
+    margin-left:8px;
+}
+.user-comment{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:18px;
+    font-weight:bold;
+    margin-left:8px;
+
+}
+.details{
+    margin-right:8px;
+    margin-left:8px;
+}
